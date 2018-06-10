@@ -1,0 +1,21 @@
+[v-cloak]{
+    display: none;
+}/*解决刷新或者加载出现闪烁（显示变量）**/
+table{
+    border:1px solid blueviolet;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+th,td{
+    padding: 8px 16px;
+    border:1px solid blueviolet;
+    text-align: left;
+
+}
+th{
+    background-color: brown;
+    color: antiquewhite;
+    font-weight: 600;
+    white-space: nowrap;
+}
